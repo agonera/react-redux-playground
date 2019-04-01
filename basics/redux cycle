@@ -1,0 +1,20 @@
+
+
+    REDUX CYCLE
+
+    Action Creator
+    - when we want to CHANGE STATE or data
+    - produces an object: Action
+
+    Action
+    - describes HOW we want to change data inside of the app
+
+    Dispatch
+    - creates 'copies' and passes to all reducers
+
+    Reducers
+    - process the data and modifies it
+    - returns new data (does not mute them)
+
+    State
+    -
