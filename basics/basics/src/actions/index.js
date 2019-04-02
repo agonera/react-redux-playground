@@ -1,6 +1,7 @@
 // action creator: selectItem
 // return an action
 
+
 export const selectItem = (item) => { // import { selectItem } from ...
     return {
         // type is required
@@ -9,3 +10,15 @@ export const selectItem = (item) => { // import { selectItem } from ...
         payload: item
     };
 };
+
+
+
+/*      ACTION
+        - plain JavaScript objects
+        - describes WHAT is happening
+        - ONLY source of information to the store
+        - sending to the store: store.dispatch()
+
+        ACTION CREATORS
+        - create actions (returns an action)
+*/
