@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
 
 
-const itemReducer = () => { // no actions; it returns only an array of items; we do not change it here
+const itemsReducer = () => { // no actions; it returns only an array of items; we do not change it here
     return [
         { task: 'feed the dog', priority: '1' },
         { task: 'do the shopping', priority: '3' },
@@ -20,7 +20,7 @@ const selectedItemReducer = (selectedItem = null, action) => {
 
 export default combineReducers({
     // keys: do sth with key
-    items: itemReducer,
+    items: itemsReducer,
     selectedItem: selectedItemReducer
 });
 
