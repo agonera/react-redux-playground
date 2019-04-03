@@ -20,5 +20,6 @@ export const selectItem = (item) => { // import { selectItem } from ...
         - sending to the store: store.dispatch()
 
         ACTION CREATORS
-        - create actions (returns an action)
+        - if we want to change state in Redux, we call actions creators
+        - they create actions (return an action)
 */

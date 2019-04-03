@@ -7,8 +7,7 @@ import reducers from './reducers';
 
 // connect() function connects a React component to a Redux store
 
-// </Provider/> makes the Redux store available to any nested components
-// that have been wrapped in the connect() function
+// </Provider/> makes the store available to nested components that have been wrapped in the connect() function
 
 ReactDOM.render(
     <Provider store={createStore(reducers)}>

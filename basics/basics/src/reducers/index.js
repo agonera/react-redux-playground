@@ -10,8 +10,9 @@ const itemReducer = () => { // no actions; it returns only an array of items; we
 };
 
 const selectedItemReducer = (selectedItem = null, action) => {
-    if (action.type === 'ITEM_SELECTED') {
+    if (action.type === 'ITEM_SELECTED') { // runs when Select button is clicked
         return action.payload;
+
     }
     return selectedItem;
 };
