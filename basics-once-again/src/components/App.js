@@ -1,6 +1,7 @@
 import React from "react";
-import { TodoList } from "./TodoList";
 import { connect } from "react-redux";
+
+import { TodoList } from "./TodoList";
 import { getTodoList } from "../actions";
 
 
@@ -11,7 +12,6 @@ const TEST_LIST = [
 ];
 
 export class App extends React.Component {
-
     componentDidMount() {
         this.props.getTodoList(TEST_LIST);
     }
@@ -25,6 +25,7 @@ export class App extends React.Component {
     }
 }
 
+// takes state and returns props for a component:
 const mapStateToProps = (state) => {
     return {
         todoList: state.todoList
