@@ -5,9 +5,10 @@ import { createStore } from "redux";
 import App from './components/App';
 import reducers from './reducers';
 
-// connect() function connects a React component to a Redux store
 
+// connect() function connects a React component to a Redux store
 // </Provider/> makes the store available to nested components that have been wrapped in the connect() function
+
 
 ReactDOM.render(
     <Provider store={createStore(reducers)}>
