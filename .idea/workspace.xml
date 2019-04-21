@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ae7ac0d-11d8-4a0b-9c1a-2e5ccf19d91b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog-v2/src/components/UserHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-v2/src/reducers/usersReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-v2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/blog-v2/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-v2/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-v2/src/actions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-v2/src/components/PostList.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-v2/src/components/PostList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-v2/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog-v2/src/reducers/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,7 +24,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog-v2/src/components/UserHeader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="136">
               <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -41,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog-v2/src/actions/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="3" lean-forward="true" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+            <state relative-caret-position="646">
+              <caret line="38" column="6" lean-forward="true" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -62,7 +57,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog-v2/src/reducers/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="136">
               <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
@@ -74,7 +69,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog-v2/src/components/PostList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="289">
               <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -174,7 +169,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,6 +219,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -288,15 +283,16 @@
       <workItem from="1555259982587" duration="1131000" />
       <workItem from="1555319171024" duration="10157000" />
       <workItem from="1555416919326" duration="6354000" />
-      <workItem from="1555497495213" duration="4857000" />
+      <workItem from="1555497495213" duration="5454000" />
+      <workItem from="1555841107828" duration="2029000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75182000" />
+    <option name="totallyTimeSpent" value="77808000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="-1" width="1920" height="1080" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16183448" />
@@ -597,6 +593,16 @@
     <entry file="file://$PROJECT_DIR$/blog-v2/src/apis/jsonPlaceholder.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog-v2/src/components/UserHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog-v2/src/reducers/usersReducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -606,7 +612,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog-v2/src/reducers/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="136">
           <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
@@ -616,18 +622,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog-v2/src/components/PostList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="289">
           <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-v2/src/components/UserHeader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -636,8 +632,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog-v2/src/actions/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="3" lean-forward="true" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+        <state relative-caret-position="646">
+          <caret line="38" column="6" lean-forward="true" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
